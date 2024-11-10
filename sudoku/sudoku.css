@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+hr{
+    width: 80vw;
+}
+#errors{
+    color:#dc143c
+}
+#board{
+    display:flex;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+
+}
+
+.tile{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #dcdcdc;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#digits{
+    width: 450px;
+    height: 50px;
+    margin: 0 auto;
+    display:flex;
+     justify-content: space-between;
+     box-sizing: border-box;
+}
+.numbers {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.number-selected{
+    background-color: #808080;
+}
+.tile-start{
+    background-color: #f5f5f5;
+}
+.horizontal-line{
+    border-bottom:1px solid #000000 ;
+}
+.vertical-line{
+    border-right: 1px solid #000000;
+}
